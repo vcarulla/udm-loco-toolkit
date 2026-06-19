@@ -95,3 +95,9 @@ cd UniFi_Loco_Patch && shasum -a 256 -c checksums.txt
 
 Si preferís no versionar el binario, `scripts/download-ufiber-configurator.sh` lo descarga
 desde el release upstream y valida el checksum.
+
+## Licencia
+
+Código original (scripts y documentación): **MIT** — ver [`LICENSE`](LICENSE).
+El binario de terceros `UFiber.Configurator` y sus `.dylib` conservan la licencia de su
+proyecto upstream; no están cubiertos por la MIT de este repo.
