@@ -1,0 +1,26 @@
+# System
+.DS_Store
+*.pem
+
+# Env files / secretos
+.env
+.env*.local
+
+# Sesión / estado de la API del UDM
+.udm-session/
+
+# Logs
+*.log
+
+# Backups del firmware del LOCO (binarios, contienen el serial GPON clonado)
+UniFi_Loco_Patch/dumps/
+UniFi_Loco_Patch/patched/
+
+# Símbolos de debug y lock del parcheador
+UniFi_Loco_Patch/*.pdb
+UniFi_Loco_Patch/.ufiber_patch.lock/
+
+# Local / privado
+.claude/
+private/*
+!private/README.md
